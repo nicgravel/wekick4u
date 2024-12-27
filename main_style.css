@@ -1,0 +1,33 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,div.paragraph,blockquote,fieldset,input{ margin:0; padding:0; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{ margin:0; padding:0; }
+ ul{ list-style:none; }
+ fieldset{ border:0; }
+ a img{ border:0; }
+ .clear{ clear:both; }
+ body { background-color: rgb(244, 240, 240); font-family: "lucida grande",arial, sans-serif; font-size:12px; color:#666666; margin:0; padding:0; }
+ a{ color: #3784ab; text-decoration: none; }
+ div.paragraph { line-height: 170%; color: #333333; font-size: 13px; padding: 5px 0px 5px 0px; }
+ p { line-height: 170%; color: #333333; font-size: 13px; padding: 5px 0px 5px 0px; }
+ h1 { font-size:24px; font-weight:bold; color:#333333; line-height:1.5; padding: 5px 0px 5px 0px; }
+ h2 { font-family:"lucida grande", arial, sans-serif; font-size:18px; color:#333333; font-weight: normal; line-height:1.5; padding: 5px 0px 5px 0px; }
+ #wrapper { width:960px; margin:0pt auto; }
+ #title{ font-family: "Times New Roman", Times, serif; width: 960px; height: 94px; padding: 5px 0px; font-size: 45px; font-weight: bold; }
+ #title, #title a { color: #333333; }
+ #header{ width: 956px; height: 241px; border-top: 2px solid #cccccc; border-left: 2px solid #cccccc; border-right: 2px solid #cccccc; border-bottom: 1px solid #cccccc; }
+ #navigation{ font-family: "Times New Roman", Times, serif; width: 960px; height: 51px; clear: both; background-color: #333333; }
+ #navigation li{ float: left; text-transform: uppercase; height: 51px; }
+ #navigation li a{ display: block; height: 40px; padding: 11px 81px 0px 12px; color: #fff; border-left: 1px solid #cccccc; font-size: 14px; text-decoration: none; }
+ *html #navigation li a{ display: inline-block; }
+ #wsite-menus .wsite-menu-wrap { z-index: 5000; }
+ #wsite-menus .wsite-menu { padding: 0; margin: 0; list-style: none; }
+ #wsite-menus .wsite-menu li { float: left; clear: left; width: 193px; text-align: left; }
+ #wsite-menus .wsite-menu li a { position: relative; display: block; width: 100%; background: #d1d1d1; border-top: 1px solid #ececec; border-bottom: none; border-right: none; border-left: none; text-decoration: none; font-size: 13px; font-weight: normal; line-height:1; padding: 5px 6px 5px 7px; color: #333333; }
+ #wsite-menus .wsite-menu li a:hover { background: #c1c0c0; }
+ #content{ width: 960px; height:auto !important; min-height:400px; padding: 25px 0px 35px 0px; }
+ #content a{ color: #3784ab; font-weight: bold; text-decoration: none; }
+ #footer{ width: 950px; color: #333333; font-size: 14px; clear: both; border-top: 1px solid #cccccc; padding: 11px 0px 20px 0px; }
+
+div.paragraph ul, div.paragraph ol { padding-left: 25px !important; margin: 5px 0 !important; overflow:hidden; }
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
+div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
+div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
